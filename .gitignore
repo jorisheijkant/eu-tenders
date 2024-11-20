@@ -1,0 +1,6 @@
+__pycache__
+data/
+data
+data/**/*
+!data/known_urgent/.gitkeep
+!data/random_tenders/.gitkeep
