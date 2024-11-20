@@ -1,6 +1,8 @@
 __pycache__
-data/
-data
-data/**/*
+data/*
+!data/known_urgent/
+!data/random_tenders/
+data/known_urgent/*
+data/random_tenders/*
 !data/known_urgent/.gitkeep
 !data/random_tenders/.gitkeep

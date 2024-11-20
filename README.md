@@ -17,9 +17,11 @@ This repo does not include the actual tenders to run the analysis on. Download t
 - After installing everything, run `python folders-to-csv.py` to create two csv files, one for the urgent tenders and one for all of them.
 - Then run `python label-tenders.py` to start labeling the tenders. This will output two more csv files with labels. N.B.: modify the `limit` parameter according to the amount of tenders you feed into the script!
 
+The labeling script may take quite some time, especially on older pc's that do not have a good graphics card.
+
 ## TODO:
 
-- Parse all the necessary values of the XML so they end up in the csv file. [See here](https://docs.python.org/3/library/xml.etree.elementtree.html).
+- Parse all the necessary values of the XML so they end up in the csv file. [See here](https://docs.python.org/3/library/xml.etree.elementtree.html). This above may also lead to better results using the labeling.
 
 ## Further hints:
 
