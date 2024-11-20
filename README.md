@@ -22,6 +22,8 @@ The labeling script may take quite some time, especially on older pc's that do n
 ## TODO:
 
 - Parse all the necessary values of the XML so they end up in the csv file. [See here](https://docs.python.org/3/library/xml.etree.elementtree.html). This above may also lead to better results using the labeling.
+- Make the prompt better! Also I'd suggest using a more capable version of Llama, that also includes better Dutch understanding.
+- Include labeling irregularities in the prompt.
 
 ## Further hints:
 
