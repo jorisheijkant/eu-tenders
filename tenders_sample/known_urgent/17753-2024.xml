@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">1100000.0</efbc:OverallApproximateFrameworkContractsAmount>
+                        <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">3000000.0</efbc:OverallMaximumFrameworkContractsAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:FrameworkAgreementValues>
+                                <cbc:MaximumValueAmount currencyID="EUR">3000000.0</cbc:MaximumValueAmount>
+                                <efbc:ReestimatedValueAmount currencyID="EUR">1100000.0</efbc:ReestimatedValueAmount>
+                            </efac:FrameworkAgreementValues>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">3000000.0</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:IssueDate>2023-12-04+01:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Volledige opdracht</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.schiedam.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Schiedam</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Stadserf 1</cbc:StreetName>
+                                    <cbc:CityName>Schiedam</cbc:CityName>
+                                    <cbc:PostalZone>3112 DZ</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>37649839</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Farid Alamdar</cbc:Name>
+                                    <cbc:Telephone>+31 0102191777</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop@schiedam.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Rotterdam</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Wilhelminaplein 125</cbc:StreetName>
+                                    <cbc:CityName>Rotterdam</cbc:CityName>
+                                    <cbc:PostalZone>3072 AK</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 8836260000</cbc:Telephone>
+                                    <cbc:ElectronicMail>rechtbankrotterdam@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Vattenfall Sales Nederland N.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Hoekenrode 8</cbc:StreetName>
+                                    <cbc:CityName>Amsterdam</cbc:CityName>
+                                    <cbc:PostalZone>1102BR</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>09105390</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 600000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>dummy@example.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00017753-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">8/2024</efbc:GazetteID><efbc:PublicationDate>2024-01-11Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">50ebac4e-5bd7-4d89-9592-8544d207f707</cbc:ID>
+    <cbc:ContractFolderID>bfc85ab5-40ff-478c-8aba-7c2556e63d42</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-01-10+01:00</cbc:IssueDate>
+    <cbc:IssueTime>11:15:46.09327+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="direct-award-justification">urgency</cbc:ProcessReasonCode>
+            <cbc:ProcessReason languageID="NLD">De gemeente Schiedam heeft voor haar elektriciteitsvoorziening een leveringsovereenkomst met De Vrije Energie Producent (DVEP). DVEP heeft aangekondigd haar bedrijfsactiviteiten te staken. De afgelopen periode is hierover meer duidelijk geworden. Dit leidt ons ertoe dat we nu de conclusie kunnen en moeten trekken dat DVEP met ingang van 1/1/2024 de leveringsovereenkomst niet gaat nakomen.
+De continuering van de levering van elektriciteit is voor de gemeente cruciaal om te blijven voldoen aan haar (wettelijke) taken. 
+
+Doordat de conclusie over het vervallen van de levering door DVEP pas nu kan worden getrokken en het belang van de gemeente voor een continuïteit van de elektriciteitsvoorziening hoog is, kunnen de termijnen voor het doorlopen van een nieuwe Europese aanbestedingsprocedure niet in acht genomen worden. De Aanbestedende dienst gaat daarom over op toepassing van de onderhandelingsprocedure zonder aankondiging als bedoeld in artikel 2.32 lid 1c.</cbc:ProcessReason>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">-1.824.22/00026</cbc:ID>
+        <cbc:Name languageID="NLD">Vrijwillige transparantie vooraf m.b.t. levering elektriciteit</cbc:Name>
+        <cbc:Description languageID="NLD">Het leveren van elektriciteit voor de gemeente Schiedam en verbonden partijen (Stedelijk Museum, Sportbedrijf Schiedam) voor 2024. 8105459KwH</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09310000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Schiedam</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL33C</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Prijs</cbc:Name>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Volledige opdracht</cbc:Name>
+            <cbc:Description languageID="NLD">Zie publicatie Het leveren van elektriciteit voor de gemeente Schiedam en verbonden partijen (Stedelijk Museum en Sportbedrijf Schiedam).</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">1100000.0</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">09310000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Schiedam</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL33C</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-01-01+01:00</cbc:StartDate>
+                <cbc:EndDate>2024-12-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

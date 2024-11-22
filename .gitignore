@@ -6,3 +6,4 @@ data/known_urgent/*
 data/random_tenders/*
 !data/known_urgent/.gitkeep
 !data/random_tenders/.gitkeep
+.DS_Store

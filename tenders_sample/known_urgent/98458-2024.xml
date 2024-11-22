@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">7600350.0</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">760350.0</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:IssueDate>2024-01-30+01:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Opvang vluchtelingen Oekraïne</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">33</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.Rijswijk.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Rijswijk</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Bogaardplein 15</cbc:StreetName>
+                                    <cbc:CityName>Rijswijk</cbc:CityName>
+                                    <cbc:PostalZone>2284 DP</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>491587869</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Kimberly Koers</cbc:Name>
+                                    <cbc:Telephone>+31 703261601</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop@rijswijk.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtspraak.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank te Den Haag</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Prins Clauslaan 60</cbc:StreetName>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cbc:PostalZone>2595 AJ</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>info@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rijswijk.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Rijswijk</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Bogaardplein 15</cbc:StreetName>
+                                    <cbc:CityName>Rijswijk</cbc:CityName>
+                                    <cbc:PostalZone>2284 DP</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>stadhuis@rijswijk.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtspraak.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Den Haag</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Prins Clausplein 60</cbc:StreetName>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cbc:PostalZone>2595 AJ</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 883622200</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Best Western Plus Grand Winston</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Generaal Eisenhowerplein 1</cbc:StreetName>
+                                    <cbc:CityName>Rijswijk</cbc:CityName>
+                                    <cbc:PostalZone>2288 AE</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>89237</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 600000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>dummy@example.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00098458-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">34/2024</efbc:GazetteID><efbc:PublicationDate>2024-02-16Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">7e1db315-ac13-41eb-b548-a1cd420473b6</cbc:ID>
+    <cbc:ContractFolderID>8313119b-5e70-4292-b9a3-a66bcf053123</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-02-15+01:00</cbc:IssueDate>
+    <cbc:IssueTime>13:23:29.076121+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-social</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>http://www.Rijswijk.nl</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="direct-award-justification">technical</cbc:ProcessReasonCode>
+            <cbc:ProcessReason languageID="NLD">Er is maar 1 geschikte ondernemer om deze opdracht uit te voeren
+
+Gemeente Rijswijk stelt het belang van Oekraïense ontheemden voorop. Hun traumatische ervaringen zorgen voor steeds meer zichtbare psychosociale problematiek. Zij kunnen slecht omgaan met wisselingen en hebben behoefte aan rust, vertrouwen, zekerheid en herkenbare ondersteuning van hoge kwaliteit. Rijswijk wil hen dat bieden.
+De huidige partner heeft aangetoond dat te kunnen en vangt al bijna twee jaar een groot aantal Oekraïense vluchtelingen op. Na onderzoek is gebleken dat hotel Best Western de enige partij in Rijswijk is die de mogelijkheid heeft en bereid is tot de opvang van de ongeveer 250 Oekraïense vluchtelingen aan wie Rijswijk gemeentelijke opvang biedt.
+
+Wij hebben daarbij de voorwaarden, dat:
+- de kamers een minimale oppervlakte van 25 m2 hebben;
+- er een receptie die 24 uur per dag beschikbaar is en 7 dagen per week is bemenst;
+- huisdieren zijn toegestaan.
+
+Bovendien zorgt dit hotel  voor sociale beveiliging in het gebouw als aanspreekpunt voor de Oekraïense ontheemden. Kamers worden wekelijks schoongemaakt en voorzien van schoon bedlinnen en badtextiel. Housekeeping heeft tevens een signalerende taak om mogelijke overlast te signaleren en voorkomen.
+
+Oekraïense vluchtelingen voelen zich inmiddels thuis in deze tijdelijke opvang en zijn bekend met het lokale netwerk en de centrale ondersteuning die de gemeente op de locatie biedt. Bovendien staat de huidige partner huisdieren op de kamer toe, iets dat voor veel Oekraïense ontheemden een belangrijke wens is. Met de verdeling van de vluchtelingen wordt daar rekening mee gehouden omdat er in de regio geen of nauwelijks opvanglocaties zijn waar huisdieren zijn toegestaan. Wij zijn daarmee vrijwel de enige locatie waar vluchtelingen met een huisdier terecht kunnen. Daarnaast zijn drie maaltijden per dag (afgestemd op de eetwensen van Oekraïense gasten) en dranken (koffie, thee, water) inbegrepen. 
+Om deze en andere dwingende redenen van algemeen belang en daarmee samenhangende spoed komt een andere aanbieder of aanpak niet in beeld.</cbc:ProcessReason>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="NLD">Opvang vluchtelingen hotel Best Western</cbc:Name>
+        <cbc:Description languageID="NLD">opvang vluchtelingen Oekraïne 7.600.350</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">7600350.0</cbc:EstimatedOverallContractAmount>
+        </cac:RequestedTenderTotal>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85311000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Rijswijk</cbc:Description>
+            <cac:Address>
+                <cbc:Region>anyw-cou</cbc:Region>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+                <cac:MediationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:MediationParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Opvang vluchtelingen Oekraïne</cbc:Name>
+            <cbc:Description languageID="NLD">Opvang vluchtelingen Oekraïne 7.600.350</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">760350.0</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">85311000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Rijswijk</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+                <cbc:EndDate>2025-06-30+02:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

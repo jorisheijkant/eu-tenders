@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">69000000</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efbc:DPSTerminationIndicator>true</efbc:DPSTerminationIndicator>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">69000000</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2018-02-19+01:00</cbc:AwardDate>
+                            <cbc:IssueDate>2018-03-19+01:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Inrichten inhuurdesk GemeenteAmersfoorthuurtin.nl als Dynamisch aankoopsysteem</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.amersfoort.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Gemeente Amersfoort</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Stadhuisplein 1</cbc:StreetName>
+                                    <cbc:CityName>Amersfoort</cbc:CityName>
+                                    <cbc:PostalZone>3811 LM</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL310</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>451541026</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Myrthe van den Berk-Delvaux</cbc:Name>
+                                    <cbc:Telephone>+31 334695111</cbc:Telephone>
+                                    <cbc:Telefax>+31 334695468</cbc:Telefax>
+                                    <cbc:ElectronicMail>inkoopcm@amersfoort.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtspraak.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Midden Nederland</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Postbus 16005</cbc:StreetName>
+                                    <cbc:CityName>Utrecht</cbc:CityName>
+                                    <cbc:PostalZone>3500 DA</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL310</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Name>Afdeling bestuursrecht, o.v.v. bodemzaken of voorlopige voorzieningen</cbc:Name>
+                                    <cbc:Telephone>+31 883620000</cbc:Telephone>
+                                    <cbc:Telefax>+31 302233049</cbc:Telefax>
+                                    <cbc:ElectronicMail>m-nederland@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.solutionsfactory.nl</cbc:WebsiteURI>
+                                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">The Solutions Factory B.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Robijnstraat 48</cbc:StreetName>
+                                    <cbc:CityName>Alkmaar</cbc:CityName>
+                                    <cbc:PostalZone>1812RB</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL328</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>53795806</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00659171-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">212/2024</efbc:GazetteID><efbc:PublicationDate>2024-10-30+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">fb1d349b-9a04-4587-a596-f19d157fe48b</cbc:ID>
+    <cbc:ContractFolderID>c630a78f-beff-4293-b196-0bee3233b56a</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-10-28+01:00</cbc:IssueDate>
+    <cbc:IssueTime>15:52:50.839825589+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cbc:BuyerProfileURI>http://www.amersfoort.nl/aanbestedingen</cbc:BuyerProfileURI>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">175513</cbc:ID>
+        <cbc:Name languageID="NLD">Inrichten inhuurdesk GemeenteAmersfoorthuurtin.nl als Dynamisch aankoopsysteem</cbc:Name>
+        <cbc:Description languageID="NLD">Voor inhuuropdrachten van de gemeente Amersfoort wordt DAS ingesteld. &#13;
+Binnen het DAS kunnen alle inhuuropdr. vanaf schaal 9 worden geplaatst. Schaal 9 functies worden eerst uitgevraagd bij een vd gecontracteerde uitzendbureaus. Als die niet kunnen leveren, kan de uitvraag in de DAS uitgezet worden.&#13;
+Een opdr. zal in 1 van onderstaande cat. worden geplaatst:&#13;
+Administratief/secretarieel&#13;
+Automatisering/ICT&#13;
+Binnen-/algemene dienst&#13;
+Ingenieursdiensten &#13;
+Buitendienst &amp; groenvoorziening&#13;
+Grondzaken, vastgoed en planeconomie&#13;
+Burger- en publiekszaken&#13;
+Dienstverlening &amp; Facilitair&#13;
+Financieel/economisch/control&#13;
+Gezondheidszorg&#13;
+Inkoop&#13;
+Juridisch en verzekeringen&#13;
+Management en mgt ondersteuning&#13;
+Projectmgt en projectondersteuning&#13;
+Openbare Orde &amp; Veiligheid&#13;
+P&amp;O&#13;
+Ruimtelijke ordening/planologie &#13;
+Sociale zaken &amp; Werkgelegenheid&#13;
+Onderwijs&#13;
+Sport &amp; Recreatie&#13;
+Vergunning &amp; Handh.&#13;
+Voorlichting &amp; Comm. &#13;
+Welzijn &amp; Cultuur&#13;
+ &#13;
+Het inhuurplatform is te vinden op GemeenteAmersfoortHuurtIn.nl. Dit betreft een aankondiging van het in gebruik nemen van een DAS voor externe inhuur. Geraamde waarde ligt tussen de €2.000.000-€4.000.000 per jaar.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="NLD">De maximale contractduur is verstreken.</cbc:Note>
+        <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">2000000.0</cbc:EstimatedOverallContractAmount>
+        </cac:RequestedTenderTotal>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Amersfoort</cbc:Description>
+            <cac:Address>
+                <cbc:Region>anyw-cou</cbc:Region>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Prijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Er is een fictie weging toegevoegd aangezien dit een vereiste is vanuit Tenderned om te kunnen publiceren. Het betreft hier een aankondiging van het inwerking treden van een DAS. In deze DAS zal per opdracht worden aangegeven wat de weging is.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>99</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteit</cbc:Name>
+                        <cbc:Description languageID="NLD">Er is een fictie weging toegevoegd aangezien dit een vereiste is vanuit Tenderned om te kunnen publiceren. Het betreft hier een aankondiging van het inwerking treden van een DAS. In deze DAS zal per opdracht worden aangegeven wat de weging is.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">dps-list</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Inrichten inhuurdesk GemeenteAmersfoorthuurtin.nl als Dynamisch aankoopsysteem</cbc:Name>
+            <cbc:Description languageID="NLD">Voor inhuuropdrachten van de gemeente Amersfoort wordt DAS ingesteld.
+Binnen het DAS kunnen alle inhuuropdr. vanaf schaal 9 worden geplaatst. Schaal 9 functies worden eerst uitgevraagd bij een vd gecontracteerde uitzendbureaus. Als die niet kunnen leveren, kan de uitvraag in de DAS uitgezet worden. Dit betreft een aankondiging van het in gebruik nemen van een DAS voor externe inhuur.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Amersfoort</cbc:Description>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2018-03-19+01:00</cbc:StartDate>
+                <cbc:EndDate>2024-03-18+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">De initiële looptijd van de DAS is 3 jaren met de mogelijkheid tot drie (3) keer een verlenging van één jaar. De maximale contractperiode is derhalve 6 jaar.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">De initiële looptijd van de DAS is 3 jaren met de mogelijkheid tot drie (3) keer een verlenging van één jaar. De maximale contractperiode is derhalve 6 jaar.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

@@ -12,6 +12,8 @@ Moreover, the original script does use a local LLM. In this way, the analysis ca
 
 This repo does not include the actual tenders to run the analysis on. Download these from the [EU Tender Journal](https://ted.europa.eu/en/). There's two folders in the repo, a `data/known_urgent` folder where you can place tenders that are urgent, in `data/random_tenders` you can place all sorts of tenders. When running the code, these will each have their own csv output. This is just so you can test the prompt and how well it functions.
 
+In the `tenders_sample/` folder you can find a few tender examples, so you don't have to start from scratch. But please do not commit all tender xml's to the repo.
+
 ## Running the code
 
 - After installing everything, run `python folders-to-csv.py` to create two csv files, one for the urgent tenders and one for all of them.

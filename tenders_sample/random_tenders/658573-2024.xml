@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <cbc:TotalAmount currencyID="EUR">1.0</cbc:TotalAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">1</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:AwardDate>2024-07-25+02:00</cbc:AwardDate>
+                            <cbc:IssueDate>2024-10-18+02:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Gehele opdracht</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.coa.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Centraal Orgaan opvang asielzoekers (COA)</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Rijnstraat 8</cbc:StreetName>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cbc:PostalZone>2515 XP</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>37648401</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Anne de Bruijn</cbc:Name>
+                                    <cbc:Telephone>+31 600000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>inkoop@coa.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cbc:WebsiteURI>http://www.rechtspraak.nl</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Den Haag</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cbc:PostalZone>2595 AJ</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL332</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 883616161</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.eneco.nl/grootzakelijk</cbc:WebsiteURI>
+                                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Eneco Zakelijk B.V.</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Marten Meesweg 5</cbc:StreetName>
+                                    <cbc:CityName>ROTTERDAM</cbc:CityName>
+                                    <cbc:PostalZone>3068AV</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">NL33C</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>24296168</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 610479570</cbc:Telephone>
+                                    <cbc:Telefax>+31 610479570</cbc:Telefax>
+                                    <cbc:ElectronicMail>accountmanagement@eneco.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00658573-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">211/2024</efbc:GazetteID><efbc:PublicationDate>2024-10-29+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">46c94dfd-8bd9-4714-af5b-6d0689e5e038</cbc:ID>
+    <cbc:ContractFolderID>00c95407-e283-4642-8ddd-72d0aaa5d7a0</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-10-28+01:00</cbc:IssueDate>
+    <cbc:IssueTime>08:47:38.259124168+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:Description languageID="NLD">Zie het beschrijvend document</cbc:Description>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID schemeName="InternalID">CDR-927043</cbc:ID>
+        <cbc:Name languageID="NLD">Duurzame Elektriciteit en Gas</cbc:Name>
+        <cbc:Description languageID="NLD">Zie het beschrijvend document Zie beschrijvend document</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09310000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">09123000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:Region>anyw-cou</cbc:Region>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteit</cbc:Name>
+                        <cbc:Description languageID="NLD">Zie het beschrijvend document, hoofdstuk 4</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Prijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Zie het beschrijvend document, hoofdstuk 4</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Gehele opdracht</cbc:Name>
+            <cbc:Description languageID="NLD">Zie het beschrijvend document</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">09310000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">09123000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:Region>anyw-cou</cbc:Region>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">72</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="NLD">Dus de Leveringsovereenkomst betreft totaal twee jaar voor duurzame elektriciteit, één jaar voor duurzame elektriciteit in combinatie met gas en drie optiejaren voor duurzame elektriciteit en gas (2+1+1+1+1).</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="NLD">Dus de Leveringsovereenkomst betreft totaal twee jaar voor duurzame elektriciteit, één jaar voor duurzame elektriciteit in combinatie met gas en drie optiejaren voor duurzame elektriciteit en gas (2+1+1+1+1).</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>

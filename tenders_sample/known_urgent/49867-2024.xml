@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeResult>
+                        <efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">600000.0</efbc:OverallApproximateFrameworkContractsAmount>
+                        <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">600000.0</efbc:OverallMaximumFrameworkContractsAmount>
+                        <efac:LotResult>
+                            <cbc:ID schemeName="result">RES-0000</cbc:ID>
+                            <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            </efac:LotTender>
+                            <efac:FrameworkAgreementValues>
+                                <cbc:MaximumValueAmount currencyID="EUR">600000.0</cbc:MaximumValueAmount>
+                                <efbc:ReestimatedValueAmount currencyID="EUR">600000.0</efbc:ReestimatedValueAmount>
+                            </efac:FrameworkAgreementValues>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:ReceivedSubmissionsStatistics>
+                                <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                            </efac:ReceivedSubmissionsStatistics>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:SettledContract>
+                                <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                            </efac:SettledContract>
+                            <efac:TenderLot>
+                                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                        </efac:LotResult>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">600000.0</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:LotTender>
+                            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            <efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+                            <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                            <cac:LegalMonetaryTotal>
+                                <cbc:PayableAmount currencyID="EUR">600000.0</cbc:PayableAmount>
+                            </cac:LegalMonetaryTotal>
+                            <efac:SubcontractingTerm>
+                                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                            </efac:SubcontractingTerm>
+                            <efac:TenderingParty>
+                                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            </efac:TenderingParty>
+                            <efac:TenderLot>
+                                <cbc:ID>LOT-0000</cbc:ID>
+                            </efac:TenderLot>
+                            <efac:TenderReference>
+                                <cbc:ID>1</cbc:ID>
+                            </efac:TenderReference>
+                        </efac:LotTender>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+                            <cbc:IssueDate>2024-01-22+01:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Perceel 2 Inhuur adviseurs en ad - interim management</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0002</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:SettledContract>
+                            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                            <cbc:IssueDate>2024-01-22+01:00</cbc:IssueDate>
+                            <cbc:Title languageID="NLD">P1 Perceel 2 Inhuur adviseurs en ad - interim management</cbc:Title>
+                            <cac:SignatoryParty>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                            </cac:SignatoryParty>
+                            <efac:ContractReference>
+                                <cbc:ID>CON-0001</cbc:ID>
+                            </efac:ContractReference>
+                            <efac:LotTender>
+                                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                            </efac:LotTender>
+                        </efac:SettledContract>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                        <efac:TenderingParty>
+                            <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                            <efac:Tenderer>
+                                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            </efac:Tenderer>
+                        </efac:TenderingParty>
+                    </efac:NoticeResult>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.rijnland.net</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Hoogheemraadschap van Rijnland</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Archimedesweg 1</cbc:StreetName>
+                                    <cbc:CityName>Leiden</cbc:CityName>
+                                    <cbc:PostalZone>2333CM</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>14696697</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Nadine Paardekooper</cbc:Name>
+                                    <cbc:Telephone>+31 713063063</cbc:Telephone>
+                                    <cbc:ElectronicMail>aanbesteding@rijnland.net</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                            <efac:TouchPoint>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Den Haag</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>voorlichting.rb.den.haag@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                            <efac:TouchPoint>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Rechtbank Den Haag</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Den Haag</cbc:CityName>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:Contact>
+                                    <cbc:ElectronicMail>voorlichting.rb.den.haag@rechtspraak.nl</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:TouchPoint>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">JS Consultancy</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Florapark 7</cbc:StreetName>
+                                    <cbc:CityName>Alkmaar</cbc:CityName>
+                                    <cbc:PostalZone>2012 HK</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>61438014</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 600000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>dummy@example.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <efbc:CompanySizeCode listName="economic-operator-size">sme</efbc:CompanySizeCode>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="NLD">Yacht</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Charlotte van Pallandtln 12</cbc:StreetName>
+                                    <cbc:CityName>Voorburg</cbc:CityName>
+                                    <cbc:PostalZone>2272 TR</cbc:PostalZone>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>33183177</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+31 600000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>dummy@example.com</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00049867-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">18/2024</efbc:GazetteID><efbc:PublicationDate>2024-01-25Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">8349f27d-578a-4cee-a3b0-5f5e08c7948e</cbc:ID>
+    <cbc:ContractFolderID>a2776c6e-79b0-4f41-9f58-bc632c83fe2b</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-01-23+01:00</cbc:IssueDate>
+    <cbc:IssueTime>16:52:17.066909+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">NLD</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode languageID="NLD" listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="NLD">Inhuur Technisch en Ondersteunend Personeel Overbruggingsovereenkomst</cbc:Name>
+        <cbc:Description languageID="NLD">Het hoogheemraadschap van Rijnland en het hoogheemraadschap Schieland en de Krimpenerwaard (hierna: “Opdrachtgevers”) zijn voornemens om met de raamcontractanten voor de raamovereenkomsten “Inhuur van technisch en ondersteunend personeel” overbruggingsovereenkomsten te sluiten. De reden hiervoor is dat vanwege onvoorzienbare omstandigheden dwingende spoed is ontstaan bij tijdelijke overeenkomsten.
+Er is in dit specifieke geval sprake van dwingende spoed, omdat Opdrachtgevers in de tussenliggende periode tussen de oude en de nieuw te sluiten raamovereenkomst wel technisch en ondersteunend personeel moeten inhuren voor de uitvoering van werkzaamheden in het kader van bedrijfsvoering en de wettelijke taak. In het bijzonder zou het grote gevolgen kunnen hebben voor de realisatie van projecten. De onvoorzienbare omstandigheid heeft zich voorgedaan dat Opdrachtgevers vertraging van (circa) twee maanden hebben opgelopen in verband met de aanbesteding (TenderNed nummer 438410) voor de inhuur van technisch en ondersteunend personeel. In het bijzonder is deze vertraging ontstaan door aanpassing van de perceelindeling. Daardoor sluiten de nieuw te sluiten raamovereenkomsten niet meer aan op de einddatum van de lopende raamovereenkomsten.
+
+Opdrachtgevers doen een beroep op dwingende spoed (ex artikel 2.32 lid 1, sub c, Aanbestedingswet 2012) om tijdelijke overeenkomsten, ter overbrugging van de periode tussen het initiële einde van de raamovereenkomsten en de start van de nieuw te sluiten raamovereenkomsten, te sluiten.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="NLD">Leiden, Rotterdam</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">NL337</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <cbc:FundingProgramCode languageID="NLD" listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Kwaliteit</cbc:Name>
+                        <cbc:Description languageID="NLD">K1 Personeelsbeheer en planning (40%)
+K2 Kwaliteitsborging voor de in te zetten medewerkers inclusief kwaliteit personeelsprofielen (30%)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <ext:UBLExtensions>
+                            <ext:UBLExtension>
+                                <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                        <efac:AwardCriterionParameter>
+                                            <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                            <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                                        </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                </ext:ExtensionContent>
+                            </ext:UBLExtension>
+                        </ext:UBLExtensions>
+                        <cbc:AwardingCriterionTypeCode languageID="NLD" listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Name languageID="NLD">Aanbiedingsprijs</cbc:Name>
+                        <cbc:Description languageID="NLD">Tarievenblad bijlage 2</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:AppealTerms>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>TPO-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID schemeName="InternalID">1</cbc:ID>
+            <cbc:Name languageID="NLD">Perceel 2 Inhuur adviseurs en ad - interim management</cbc:Name>
+            <cbc:Description languageID="NLD">Sluiten van een overbruggingsovereenkomst ter overbrugging van de periode na afloop oude raamovereenkomst 1 februari 2024 en de nieuwe nog te sluiten raamovereenkomst per naar verwachting 1 april 2024 om de samenwerking te continueren ten behoeve van het inhuren van technisch en ondersteunend personeel onder gelijkblijvende voorwaarden van de Raamovereenkomst technisch en ondersteunend personeel (DIG-10460). Hierbij zal een optie tot verlenging van telkens 1 maand worden opgenomen, zolang er nog geen nieuwe Raamovereenkomst is gesloten.
+
+Deze overbruggingsovereenkomsten worden gegund met gebruik van de onderhandelingsprocedure zonder voorafgaande aankondiging wegens dwingende spoed (artikel 2.32, lid 1, onder c Aw 2012). De onvoorzienbare omstandigheid heeft zich voorgedaan dat Opdrachtgevers vertraging hebben opgelopen in verband met de aanbesteding (TenderNed nummer [438410]) voor de inhuur van technisch en ondersteunend personeel. In het bijzonder moest de perceelindeling van de opdracht worden aangepast. Daardoor is de aanbestedingsprocedure voor de nieuwe raamovereenkomsten later ten einde en sluiten de nieuwe en de oude raamovereenkomsten niet op elkaar aan. Het is voor Opdrachtgevers voor de uitvoering van de wettelijke taak van wezenlijk belang dat zij beschikken over de inzet van technisch en ondersteunend personeel. Zonder de inhuur van deze krachten kan de situatie ontstaan dat Opdrachtgevers in bepaalde gevallen niet kunnen voldoen aan de uitvoering van de wettelijke taak. Er kan sprake zijn van tekort aan personeel waardoor de wettelijke taken, zoals het voorkomen van wateroverlast of het zuiveren van afvalwater, niet kan worden uitgevoerd. Dit achtten Opdrachtgevers onacceptabele risico’s.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cac:RequestedTenderTotal>
+                <cbc:EstimatedOverallContractAmount currencyID="EUR">600000.0</cbc:EstimatedOverallContractAmount>
+            </cac:RequestedTenderTotal>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">79620000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="NLD">Leiden, Rotterdam</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">NL337</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">NLD</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-02-01+01:00</cbc:StartDate>
+                <cbc:EndDate>2024-04-01+02:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:TenderResult>
+        <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+    </cac:TenderResult>
+</ContractAwardNotice>
